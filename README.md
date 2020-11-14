@@ -1,7 +1,7 @@
 # storybot
 A discord bot that will tell you stories, and remember stories that you tell it. The cool feature is that users can add their own stories through a Google Form, and the program will interface with the Google API to automatically read and remember these submissions.
 
-All very W.I.P. and unfinished.
+All very W.I.P. and unfinished. Note that there is not yet a good security/vetting system, so the Google Form ID is censored in this github repo
 
 **Currenet Roadmap:**
  - [x] Discord API interface set up
