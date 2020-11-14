@@ -1,5 +1,5 @@
 # storybot
-A discord bot that will tell you stories, and remember stories that you tell it
+A discord bot that will tell you stories, and remember stories that you tell it. The cool feature is that users can add their own stories through a Google Form, and the program will interface with the Google API to automatically read and remember these submissions.
 
 All very W.I.P. and unfinished.
 
@@ -7,7 +7,7 @@ All very W.I.P. and unfinished.
  - [x] Discord API interface set up
  - [x] Story JSON database designed
  - [x] Basic commands (tell stories, display information)
- - [ ] Google Drive API to allow users to add their own stories via Google Forms
+ - [x] Google Drive API to allow users to add their own stories via Google Forms
  - [ ] Story vetting pipeline
  - [ ] Packagelock implemented for simultaneous access
  - [ ] TTS support
@@ -26,20 +26,12 @@ Quick summary of files:
 
 Currently supported commands:
 ----
-
- - !story [ID]
- 
- Either tells you a random story (if no "ID" is given) or returns the requested story
- 
- - !moreinfo
- 
- Tells you more information about the most recently-posted story
- 
- - !reload
- 
- Reloads the story database
- 
- - !exists
- 
- Checks if ID exists in database
+ - *!story [ID]* - tells you a story (will pick a random story if [ID] is left blank)
+ - *!moreinfo* - displays info about the most recently-told story
+ - *!exists [ID]* - tells you if ID exists in the database or not
+ - *!add* - contribute your own story!
+ - *!reload* - reloads story database
+ - *!updatequeue* - checks for new submissions of stories
+ - *!reviewnext* - approve/disapprove next item in submission queue
+ - *!help* - list all commands
 
