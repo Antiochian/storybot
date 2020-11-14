@@ -2,13 +2,16 @@
 A discord bot that will tell you stories, and remember stories that you tell it
 
 All very W.I.P. and unfinished.
-**Roadmap:**
+
+**Currenet Roadmap:**
  - [x] Discord API interface set up
  - [x] Story JSON database designed
  - [x] Basic commands (tell stories, display information)
  - [ ] Google Drive API to allow users to add their own stories via Google Forms
  - [ ] Story vetting pipeline
  - [ ] Packagelock implemented for simultaneous access
+ - [ ] TTS support
+ - [ ] embedded image/markdown support?
  
 Quick summary of files:
 ----
