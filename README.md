@@ -18,11 +18,13 @@ Quick summary of files:
 
 *storybot.py* - actual bot file
 
+*tale_manager.py* - interface for evaluating and adding new stories to the database automatically
+
+*responses/read_responses.py* - Google API interface to read results of google poll
+
 *tales.json* - database of current known stories and metadata
 
-*tale_manager.py* - interface for adding new storie to the database
-
-*build_tales.py* - temporary script that creates a simple default database of 2 example stories
+*queue.json* - database of queued stories (submitted via Google Forms but not approved yet)
 
 Currently supported commands:
 ----
