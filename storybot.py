@@ -165,7 +165,7 @@ async def moreinfo(context):
      
 @bot.command(name="add")
 async def add(context):
-    await context.send("To contribute your own story, go to: https://forms.gle/e4WaMjjnaEYvcZoCA" )
+    await context.send("To contribute your own story, go to: CENSORED" )
 
 @bot.command(name="help")
 async def gimmickhelp(context):
