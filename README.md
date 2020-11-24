@@ -10,6 +10,7 @@ Note that there is not yet a good security/vetting system, so the Google Form ID
  - [x] Story JSON database designed
  - [x] Basic commands (tell stories, display information)
  - [x] Google Drive API to allow users to add their own stories via Google Forms
+ 
 **Possible Extensions**
  - [ ] Story vetting pipeline
  - [ ] Packagelock implemented for simultaneous access
